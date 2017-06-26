@@ -1,5 +1,7 @@
 <?php
-start_session();
+  
+  //start_session() -- No;
+  session_start(); // -- Yes.
 
   // these lines format the output as HTML comments
   // and call dump_array repeatedly
